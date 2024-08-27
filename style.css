@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.mi-contenedor {
+    width: 80%;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #ddd6d6;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.Rectangulo {
+    flex: 1;
+    max-width: 45%;
+    background-color: E5E5E5;
+    border-radius: 32px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.Rectangulo1 {
+    flex: 1;
+    max-width: 45%;
+    background-color: E5E5E5;
+    border-radius: 32px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .mi-contenedor {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Rectangulo, .Rectangulo1 {
+        max-width: 100%;
+    }
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: auto;
+    padding: 10px;
+}
+
+.boton1, .boton2, .boton3 {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.boton1 {
+    background-color: darkblue;
+    color: white;
+}
+
+.boton2 {
+    background-color: #E5E5E5;
+    color: darkblue;
+}
+
+.boton3 {
+    background-color: #e0e0e0;
+    color: darkblue;
+    margin-top: 10%;
+}
+
+.Escribe {
+    width: 100%;
+    max-width: 400px;
+    min-height: 10px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+.titulo-destaque {
+    display: block;
+    color: darkblue;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.Escribe_index2 {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+@media (max-width: 768px) {
+    .mi-contenedor {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Rectangulo, .Rectangulo1 {
+        max-width: 100%;
+    }
+
+    .Escribe, .Escribe_index2 {
+        max-width: 100%;
+    }
+}
+
+.letraERROR {
+    margin-top: 29%;
+    background-color: darkblue;
+}
+
+.Texto1, .Texto2 {
+    color: black;
+}
